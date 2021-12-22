@@ -7,7 +7,7 @@ import time
 
 import streamlit as st
 
-a=pd.read_csv('E:\startegy\logs\mo_ch\stream/mo_ch1.csv')
+a=pd.read_csv('mo_ch1.csv')
 a=pd.DataFrame(a)
 a=a.dropna()
 print(a)
