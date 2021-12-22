@@ -6,7 +6,7 @@ from datetime import datetime as dt
 import time
 
 import streamlit as st
-# a
+
 a=pd.read_csv('mo_ch1.csv')
 a=pd.DataFrame(a)
 a=a.dropna()
@@ -22,6 +22,7 @@ for i in a['pnl']:
     tot+=i
 
 st.write(f'total pnl is {tot}')
+<<<<<<< HEAD
 # import numpy as np
 
 # progress_bar = st.sidebar.progress(0)
@@ -43,3 +44,6 @@ st.write(f'total pnl is {tot}')
 # # this button is not connected to any other logic, it just causes a plain
 # # rerun.
 # st.button("Re-run")
+=======
+>>>>>>> 2bc286ab535be1e53c00117597d3a7799e3c6fb0
+
