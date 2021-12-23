@@ -33,7 +33,7 @@ def rsi():
 	rsi=rsi[['Date','Strike','quantity','pnl']]
 	rsi=rsi.reset_index()
 	rsi=rsi.drop('index',axis=1)
-	st.subheader('2nd Strategy')
+	st.subheader('2nd Strategy - Scalping')
 	st.write(rsi)
 	for i in rsi['pnl']:
 		i=int(i)
