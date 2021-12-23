@@ -11,5 +11,5 @@ NSE:NIFTY BANK,FALSE,187.4,TRUE,186.75,23-12-2021,-16,ce,25,TRUE,BANKNIFTY21D233
 ,Entry,Entryprice,Exit,Exitprice,date,pnl,position,quantity,signal,strike
 NSE:NIFTY BANK,False,145.25,True,166.35,23-12-2021,527,pe,25,True,BANKNIFTY21D2335500PE
 2021-12-23 13:30:38
-,Entry,Entryprice,Entryprice_fut,Exit,Exitprice,Exitprice_fut,candle_sl,date,option_sl,pnl,pnl_fut,position,quantity,signal,strike
-NSE:NIFTY BANK,False,112.5,35501,True,136.2,35460.45,35438.6,23-12-2021,67.5,592,1014,pe,25,True,BANKNIFTY21D2335500PE
+,Entry,Entryprice,Exit,Exitprice,date,pnl,position,quantity,signal,strike
+NSE:NIFTY BANK,False,112.5,True,136.2,23-12-2021,592,pe,25,True,BANKNIFTY21D2335500PE
