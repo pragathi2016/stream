@@ -1,0 +1,4 @@
+12/23/2021 12:01,,,,,,,,,,,
+,Entry,Entryprice,Exit,Exitprice,candle_sl,date,pnl,position,quantity,signal,strike
+NSE:NIFTY BANK,TRUE,35228.25,TRUE,35269.35,35268.3,23-12-2021,-3082,short,75,TRUE,BANKNIFTY21DECFUT
+,,,,,,,,,,,

@@ -1,0 +1,6 @@
+12/23/2021 12:37,,,,,,,,,,,,,
+,Entry,Entryprice,Exit,Exitprice,candle_sl,date,option_sl,pnl,position,quantity,signal,strike,target
+bnf,FALSE,,FALSE,,,23-12-2021,,0,,,FALSE,,
+12/23/2021 12:32,,,,,,,,,,,,,
+,Entry,Entryprice,Exit,Exitprice,candle_sl,date,option_sl,pnl,position,quantity,signal,strike,target
+NFO:NIFTY21DECFUT,FALSE,46.1,TRUE,54.75,17079.2,23-12-2021,38.8,432,ce,50,TRUE,NIFTY21D2317050CE,17124.7

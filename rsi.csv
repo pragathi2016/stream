@@ -1,0 +1,12 @@
+12/23/2021 10:21,,,,,,,,,,
+,Entry,Entryprice,Exit,Exitprice,date,pnl,position,quantity,signal,strike
+NSE:NIFTY BANK,FALSE,146,TRUE,144.1,23-12-2021,-48,pe,25,TRUE,BANKNIFTY21D2335200PE
+12/23/2021 10:31,,,,,,,,,,
+,Entry,Entryprice,Exit,Exitprice,date,pnl,position,quantity,signal,strike
+NSE:NIFTY BANK,FALSE,207.95,TRUE,191.1,23-12-2021,-421,ce,25,TRUE,BANKNIFTY21D2335000CE
+12/23/2021 11:52,,,,,,,,,,
+,Entry,Entryprice,Exit,Exitprice,date,pnl,position,quantity,signal,strike
+NSE:NIFTY BANK,FALSE,187.4,TRUE,186.75,23-12-2021,-16,ce,25,TRUE,BANKNIFTY21D2335100CE
+2021-12-23 12:52:51
+,Entry,Entryprice,Exit,Exitprice,date,pnl,position,quantity,signal,strike
+NSE:NIFTY BANK,False,145.25,True,166.35,23-12-2021,527,pe,25,True,BANKNIFTY21D2335500PE
