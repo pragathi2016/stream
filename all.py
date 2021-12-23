@@ -9,7 +9,8 @@ import streamlit as st
 
 def mother_child():
 	global mother_child_pnl
-	mother_child=pd.read_csv('E:/startegy/logs/mo_ch/stream/moch.csv')
+	mother_child=pd.read_csv('moch.csv')
+	# mother_child=pd.read_csv('E:/startegy/logs/mo_ch/stream/moch.csv')
 	mother_child=mother_child.dropna()
 	mother_child=mother_child.rename(columns={'Unnamed: 6':'Date','Unnamed: 12':'Strike','Unnamed: 10':'quantity','Unnamed: 8':'pnl'})
 	mother_child=mother_child[['Date','Strike','quantity','pnl']]
@@ -25,7 +26,8 @@ def mother_child():
 
 def rsi():
 	global rsi_pnl
-	rsi=pd.read_csv('E:/startegy/logs/mo_ch/stream/rsi.csv')
+	rsi=pd.read_csv('rsi.csv')
+	# rsi=pd.read_csv('E:/startegy/logs/mo_ch/stream/rsi.csv')
 	rsi=rsi.dropna()
 	rsi=rsi.rename(columns={'Unnamed: 5':'Date','Unnamed: 10':'Strike','Unnamed: 8':'quantity','Unnamed: 6':'pnl'})
 	rsi=rsi[['Date','Strike','quantity','pnl']]
@@ -43,7 +45,8 @@ def bnf300():
 	mother_child()
 	rsi()
 	global bnf300_pnl
-	bnf300=pd.read_csv('E:/startegy/logs/mo_ch/stream/bnf300.csv')
+	bnf300=pd.read_csv('bnf300.csv')
+	# bnf300=pd.read_csv('E:/startegy/logs/mo_ch/stream/bnf300.csv')
 	bnf300=bnf300.dropna()
 	bnf300=bnf300.rename(columns={'Unnamed: 6':'Date','Unnamed: 11':'Strike','Unnamed: 9':'quantity','Unnamed: 7':'pnl'})
 	bnf300=bnf300[['Date','Strike','quantity','pnl']]
@@ -71,5 +74,5 @@ if __name__=="__main__":
 	# st.line_chart(rsi_data.rename(columns={'Date':'index'}).set_index('index'))
 	bnf300()
 	st.header(f"Total pnl of all strategies = {mother_child_pnl+rsi_pnl+bnf300_pnl}")
-	
+
 
