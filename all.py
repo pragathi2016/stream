@@ -64,6 +64,7 @@ def bnf300():
 
 
 def total_pnl():
+	bnf300()
 	update=f"Total pnl of all strategies = {mother_child()}"
 
 
@@ -72,7 +73,11 @@ if __name__=="__main__":
 	mother_child_pnl=0
 	rsi_pnl=0
 	# st.line_chart(rsi_data.rename(columns={'Date':'index'}).set_index('index'))
+	count = 0
 	bnf300()
 	st.header(f"Total pnl of all strategies = {mother_child_pnl+rsi_pnl+bnf300_pnl}")
+	increment = st.button('Refresh')
+	if increment:
+	    count += 1
 
 
