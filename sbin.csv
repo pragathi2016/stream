@@ -1,4 +1,3 @@
-
-2021-12-24 15:14:22
+12/24/2021 15:14,,,,,,,,,,
 ,Entry,Entryprice,Exit,Exitprice,candle_sl,pnl,position,quantity,signal,strike
-NSE:SBIN,True,453.7,True,457.25,,-888,short,250,False,NSE:SBIN
+NSE:SBIN,TRUE,453.7,TRUE,457.25,,-888,short,250,FALSE,NSE:SBIN
