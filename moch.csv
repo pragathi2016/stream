@@ -7,3 +7,6 @@ NFO:NIFTY21DECFUT,FALSE,46.1,TRUE,54.75,17079.2,23-12-2021,38.8,432,ce,50,TRUE,N
 2021-12-23 14:22:27
 ,Entry,Entryprice,Exit,Exitprice,candle_sl,date,option_sl,pnl,position,quantity,signal,strike,target
 NFO:NIFTY21DECFUT,False,57.35,True,44.2,17071.5,23-12-2021,44.6,-657,pe,50,True,NIFTY21D2317100PE,17036.25
+2021-12-24 13:30:07
+,Entry,Entryprice,Exit,Exitprice,candle_sl,date,option_sl,pnl,position,quantity,signal,strike,target
+NFO:NIFTY21DECFUT,False,169.45,True,178.9,16940.1,24-12-2021,161.35,473,ce,50,True,NIFTY21DEC16900CE,16982.100000000002
