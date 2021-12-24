@@ -25,21 +25,21 @@ def mother_child():
 	return mother_child_pnl
 
 def rsi():
-	global rsi_pnl
-	rsi=pd.read_csv('rsi.csv')
-	# rsi=pd.read_csv('E:/startegy/logs/mo_ch/stream/rsi.csv')
-	rsi=rsi.dropna()
-	rsi=rsi.rename(columns={'Unnamed: 5':'Date','Unnamed: 10':'Strike','Unnamed: 8':'quantity','Unnamed: 6':'pnl'})
-	rsi=rsi[['Date','Strike','quantity','pnl']]
-	rsi=rsi.reset_index()
-	rsi=rsi.drop('index',axis=1)
-	st.subheader('2nd Strategy - Scalping')
-	st.write(rsi)
-	for i in rsi['pnl']:
+	global sbin_pnl
+	sbin=pd.read_csv('sbin.csv')
+	# sbin=pd.read_csv('E:/startegy/logs/mo_ch/stream/sbin.csv')
+	sbin=sbin.dropna()
+	sbin=sbin.rename(columns={'Unnamed: 5':'Date','Unnamed: 10':'Stock','Unnamed: 8':'quantity','Unnamed: 6':'pnl'})
+	sbin=sbin[['Date','Stock','quantity','pnl']]
+	sbin=sbin.reset_index()
+	sbin=sbin.drop('index',axis=1)
+	st.subheader('2nd Strategy')
+	st.write(sbin)
+	for i in sbin['pnl']:
 		i=int(i)
-		rsi_pnl+=i
-	st.text(f'Total pnl in 2nd startegy is {rsi_pnl}')
-	return rsi_pnl
+		sbin_pnl+=i
+	st.text(f'Total pnl in 2nd startegy is {sbin_pnl}')
+	return sbin_pnl
 
 def bnf300():
 	mother_child()
@@ -71,11 +71,11 @@ def total_pnl():
 if __name__=="__main__":
 	bnf300_pnl=0
 	mother_child_pnl=0
-	rsi_pnl=0
+	sbin_pnl=0
 	# st.line_chart(rsi_data.rename(columns={'Date':'index'}).set_index('index'))
 	count = 0
 	bnf300()
-	st.header(f"Total pnl of all strategies = {mother_child_pnl+rsi_pnl+bnf300_pnl}")
+	st.header(f"Total pnl of all strategies = {mother_child_pnl+sbin_pnl+bnf300_pnl}")
 	increment = st.button('Refresh')
 	if increment:
 	    count += 1
