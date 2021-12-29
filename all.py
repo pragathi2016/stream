@@ -74,7 +74,7 @@ if __name__=="__main__":
 	sbin_pnl=0
 	# st.line_chart(rsi_data.rename(columns={'Date':'index'}).set_index('index'))
 	count = 0
-	st.text("Have considered charges of 50rs per trade in options,500rs in Futures and 50rs in Equity")
+	st.text("Have considered charges of 50rs per trade in options,500rs in Futures and \n 50rs in Equity")
 	st.text("Pnl is after all deductions")
 	bnf300()
 	st.header(f"Total pnl of all strategies = {mother_child_pnl+sbin_pnl+bnf300_pnl}")
