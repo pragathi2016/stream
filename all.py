@@ -76,7 +76,7 @@ if __name__=="__main__":
 	count = 0
 	st.text("Hi all ,below are my startegies running live.")
 	st.text("I Have considered charges of 50rs per trade in options,500rs in Futures and \n50rs in Equity.")
-	st.text("Pnl is after all deductions.")
+	st.text("Pnl is after all deductions.Scroll below for total pnl of all strategies.")
 	bnf300()
 	st.header(f"Total pnl of all strategies = {mother_child_pnl+sbin_pnl+bnf300_pnl}")
 	st.write("Contact me @ [Twitter](https://twitter.com/yashwanthb_s)")
