@@ -73,6 +73,7 @@ def straddle():
 	straddle=straddle.drop('index',axis=1)
 	straddle.drop(index=straddle.index[0],axis=0,inplace=True)
 	st.subheader('4th Strategy- Straddle')
+	st.text("BANKNIFTY")
 	st.write(straddle)
 	straddle_pnl=0
 	for i in straddle['pnl']:
