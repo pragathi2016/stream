@@ -42,8 +42,6 @@ def rsi():
 	return sbin_pnl
 
 def bnf300():
-	mother_child()
-	rsi()
 	global bnf300_pnl
 	bnf300=pd.read_csv('bnf300.csv')
 	# bnf300=pd.read_csv('E:/startegy/logs/mo_ch/stream/bnf300.csv')
@@ -62,7 +60,26 @@ def bnf300():
 	st.text(f'Total pnl in 3rd startegy is {bnf300_pnl}')
 	return bnf300_pnl
 
-
+def straddle():
+	mother_child()
+	rsi()
+	bnf300()
+	global straddle_pnl
+	straddle=pd.read_csv('straddle.csv')
+	straddle=straddle.dropna()
+	straddle=straddle.rename(columns={'Unnamed: 10':'Date',"Unnamed: 15":'PE Strike','Unnamed: 14':'CE Strike','Unnamed: 11':'PE pnl','Unnamed: 8':'CE pnl','Unnamed: 16':'pnl'})
+	straddle=straddle[['Date','PE Strike','CE Strike','PE pnl','CE pnl','pnl']]
+	straddle=straddle.reset_index()
+	straddle=straddle.drop('index',axis=1)
+	straddle.drop(index=straddle.index[0],axis=0,inplace=True)
+	st.subheader('4th Strategy- Straddle')
+	st.write(straddle)
+	straddle_pnl=0
+	for i in straddle['pnl']:
+		i=int(i)
+		straddle_pnl+=i
+	st.text(f'Total pnl in 4th startegy is {straddle_pnl}')
+	return straddle_pnl
 def total_pnl():
 	bnf300()
 	update=f"Total pnl of all strategies = {mother_child()}"
@@ -78,7 +95,7 @@ if __name__=="__main__":
 	st.text("I Have considered charges of 50rs per trade in options,500rs in Futures and \n50rs in Equity.")
 	st.text("Pnl is after all deductions.Scroll to the bottom for total pnl of all strategies.")
 	bnf300()
-	st.header(f"Total pnl of all strategies = {mother_child_pnl+sbin_pnl+bnf300_pnl}")
+	st.header(f"Total pnl of all strategies = {mother_child_pnl+sbin_pnl+bnf300_pnl+straddle_pnl}")
 	st.write("Contact me @ [Twitter](https://twitter.com/yashwanthb_s)")
 	increment = st.button('Refresh')
 	if increment:
