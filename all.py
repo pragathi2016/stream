@@ -89,12 +89,13 @@ if __name__=="__main__":
 	bnf300_pnl=0
 	mother_child_pnl=0
 	sbin_pnl=0
+	straddle_pnl=0
 	# st.line_chart(rsi_data.rename(columns={'Date':'index'}).set_index('index'))
 	count = 0
 	st.text("Hi all ,below are my startegies running live.")
 	st.text("I Have considered charges of 50rs per trade in options,500rs in Futures and \n50rs in Equity.")
 	st.text("Pnl is after all deductions.Scroll to the bottom for total pnl of all strategies.")
-	bnf300()
+	straddle()
 	st.header(f"Total pnl of all strategies = {mother_child_pnl+sbin_pnl+bnf300_pnl+straddle_pnl}")
 	st.write("Contact me @ [Twitter](https://twitter.com/yashwanthb_s)")
 	increment = st.button('Refresh')
