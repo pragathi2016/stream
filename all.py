@@ -93,7 +93,7 @@ if __name__=="__main__":
 	straddle_pnl=0
 	# st.line_chart(rsi_data.rename(columns={'Date':'index'}).set_index('index'))
 	count = 0
-	st.text("Hi all ,below are my startegies running live.")
+	st.text("Hi all ,below are my startegies running.")
 	st.text("I Have considered charges of 50rs per trade in options,500rs in Futures and \n50rs in Equity.")
 	st.text("Pnl is after all deductions.Scroll to the bottom for total pnl of all strategies.")
 	straddle()
