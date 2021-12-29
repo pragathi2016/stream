@@ -1,0 +1,3 @@
+12/29/2021 15:51,,,,,,,,,,,,,,,,
+name,Entry,Entryprice_ce,Entryprice_pe,Exit_ce,Exit_pe,Exitprice_ce,Exitprice_pe,ce_pnl,ce_sl,date,pe_pnl,pe_sl,quantity,strike_ce,strike_pe,total_pnl
+NIFTY BANK,TRUE,251.75,211.85,TRUE,TRUE,123.7,292.3,3201.25,352.45,29-12-2021,-2011.25,296.59,25,BANKNIFTY21DEC35300CE,BANKNIFTY21DEC35300PE,1140
