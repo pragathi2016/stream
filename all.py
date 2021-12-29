@@ -79,7 +79,7 @@ if __name__=="__main__":
 	st.text("Pnl is after all deductions")
 	bnf300()
 	st.header(f"Total pnl of all strategies = {mother_child_pnl+sbin_pnl+bnf300_pnl}")
-	st.write("[link](https://twitter.com/yashwanthb_s)")
+	st.write("Contact me @ [Twitter](https://twitter.com/yashwanthb_s)")
 	increment = st.button('Refresh')
 	if increment:
 	    count += 1
