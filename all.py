@@ -67,8 +67,8 @@ def straddle():
 	global straddle_pnl
 	straddle=pd.read_csv('straddle.csv')
 	straddle=straddle.dropna()
-	straddle=straddle.rename(columns={'Unnamed: 10':'Date',"Unnamed: 14":'Strikes(CE,PE)','Unnamed: 11':'PE pnl','Unnamed: 8':'CE pnl','Unnamed: 15':'pnl'})
-	straddle=straddle[['Date','Strikes(CE,PE)','PE pnl','CE pnl','pnl']]
+	straddle=straddle.rename(columns={'Unnamed: 10':'Date',"Unnamed: 14":'Strikes(PE,CE)','Unnamed: 11':'PE pnl','Unnamed: 8':'CE pnl','Unnamed: 15':'pnl'})
+	straddle=straddle[['Date','Strikes(PE,CE)','PE pnl','CE pnl','pnl']]
 	straddle=straddle.reset_index()
 	straddle=straddle.drop('index',axis=1)
 	straddle.drop(index=straddle.index[0],axis=0,inplace=True)
