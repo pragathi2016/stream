@@ -17,7 +17,7 @@ def mother_child():
 	mother_child=mother_child.reset_index()
 	mother_child=mother_child.drop('index',axis=1)
 	for i in mother_child['pnl']:
-		i=int(i)
+		i=float(i)
 		mother_child_pnl+=i
 	st.subheader('1st strategy')
 	st.write(mother_child)
@@ -36,7 +36,7 @@ def rsi():
 	st.subheader('2nd Strategy')
 	st.write(sbin)
 	for i in sbin['pnl']:
-		i=int(i)
+		i=float(i)
 		sbin_pnl+=i
 	st.text(f'Total pnl in 2nd startegy is {sbin_pnl}')
 	return sbin_pnl
@@ -54,7 +54,7 @@ def bnf300():
 	st.write(bnf300)
 	bnf300_pnl=0
 	for i in bnf300['pnl']:
-		i=int(i)
+		i=float(i)
 		bnf300_pnl+=i
 	bnf300_data=bnf300[['Date','pnl']]
 	st.text(f'Total pnl in 3rd startegy is {bnf300_pnl}')
@@ -76,7 +76,7 @@ def straddle():
 	st.text("BANKNIFTY")
 	st.write(straddle)
 	for i in straddle['pnl']:
-		i=int(i)
+		i=float(i)
 		straddle_pnl+=i
 	st.text(f'Total pnl in 4th startegy is {straddle_pnl}')
 	return straddle_pnl
