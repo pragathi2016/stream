@@ -77,6 +77,7 @@ def straddle():
 	st.write(straddle)
 	straddle_pnl=0
 	for i in straddle['pnl']:
+		st.write(i)
 		i=int(i)
 		straddle_pnl+=i
 	st.text(f'Total pnl in 4th startegy is {straddle_pnl}')
