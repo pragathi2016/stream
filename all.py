@@ -20,6 +20,7 @@ def mother_child():
 		i=float(i)
 		mother_child_pnl+=i
 	st.subheader('1st strategy')
+	mother_child['Monthly']=mother_child_pnl
 	st.write(mother_child)
 	st.text(f"Total pnl in 1st strategy is {mother_child_pnl}")
 	return mother_child_pnl
@@ -29,8 +30,8 @@ def rsi():
 	sbin=pd.read_csv('sbin.csv')
 	# sbin=pd.read_csv('E:/startegy/logs/mo_ch/stream/sbin.csv')
 	sbin=sbin.dropna()
-	sbin=sbin.rename(columns={'Unnamed: 5':'Date','Unnamed: 10':'Stock','Unnamed: 8':'quantity','Unnamed: 6':'pnl','Unnamed: 12':'Monthly'})
-	sbin=sbin[['Date','Stock','quantity','pnl','Monthly']]
+	sbin=sbin.rename(columns={'Unnamed: 5':'Date','Unnamed: 10':'Stock','Unnamed: 8':'quantity','Unnamed: 6':'pnl'})
+	sbin=sbin[['Date','Stock','quantity','pnl']]
 	sbin=sbin.reset_index()
 	sbin=sbin.drop('index',axis=1)
 	st.subheader('2nd Strategy')
