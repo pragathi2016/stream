@@ -20,7 +20,7 @@ def mother_child():
 		i=float(i)
 		mother_child_pnl+=i
 	st.subheader('1st strategy')
-	mother_child['Monthly']=mother_child_pnl
+	# mother_child['Monthly']=int(float(mother_child_pnl))
 	st.write(mother_child)
 	st.text(f"Total pnl in 1st strategy is {mother_child_pnl}")
 	return mother_child_pnl
