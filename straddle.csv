@@ -3,3 +3,6 @@ name,Entry,Entryprice_ce,Entryprice_pe,Exit_ce,Exit_pe,Exitprice_ce,Exitprice_pe
 NIFTY BANK,TRUE,251.75,211.85,TRUE,TRUE,123.7,292.3,3201.25,352.45,29-12-2021,-2011.25,296.59,25,21DEC35300,1140
 ,Entry,Entryprice_ce,Entryprice_pe,Exit_ce,Exit_pe,Exitprice_ce,Exitprice_pe,ce_pnl,ce_sl,date,pe_pnl,pe_sl,quantity,strikes,total_pnl
 NIFTY BANK,TRUE,98.35,126.35,TRUE,TRUE,138.3,0.7,-1048.75,137.69,30-12-2021,3091.25,176.89,25,21DEC34900,2142.5
+2021-12-31 15:14:43
+,Entry,Entryprice_ce,Entryprice_pe,Exit_ce,Exit_pe,Exitprice_ce,Exitprice_pe,ce_pnl,ce_sl,date,pe_pnl,pe_sl,quantity,strikes,total_pnl
+NSE:NIFTY BANK,True,389.25,385.75,True,True,374.35,371.1,322.5,544.95,31-12-2021,316.25,540.05,25,2210635500,738.75

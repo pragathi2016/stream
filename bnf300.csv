@@ -17,3 +17,6 @@ NSE:NIFTY BANK,True,35323.05,True,35133.95,35377.85,29-12-2021,18910,short,100,T
 2021-12-30 10:20:41
 ,Entry,Entryprice,Exit,Exitprice,candle_sl,date,pnl,position,quantity,signal,strike
 NSE:NIFTY BANK,True,35035.8,True,34980,34955.4,30-12-2021,-4685,long,75,True,BANKNIFTY21DECFUT
+2021-12-31 15:14:53
+,Entry,Entryprice,Exit,Exitprice,candle_sl,date,pnl,position,quantity,signal,strike
+NSE:NIFTY BANK,True,35618.5,True,35618.45,35606.7,31-12-2021,-497,short,50,True,BANKNIFTY22JANFUT

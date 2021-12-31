@@ -10,3 +10,6 @@ NSE:SBIN,TRUE,459.45,TRUE,462.55,28-12-2021,-825,short,250,FALSE,NSE:SBIN
 2021-12-29 15:14:26
 ,Entry,Entryprice,Exit,Exitprice,date,pnl,position,quantity,signal,strike
 NSE:SBIN,True,459,True,455.15,29-12-2021,963,short,250,False,NSE:SBIN
+2021-12-29 15:14:26
+,Entry,Entryprice,Exit,Exitprice,date,pnl,position,quantity,signal,strike
+NSE:SBIN,True,459.85,True,460.25,31-12-2021,50,long,250,False,NSE:SBIN
