@@ -29,8 +29,8 @@ def rsi():
 	sbin=pd.read_csv('sbin.csv')
 	# sbin=pd.read_csv('E:/startegy/logs/mo_ch/stream/sbin.csv')
 	sbin=sbin.dropna()
-	sbin=sbin.rename(columns={'Unnamed: 5':'Date','Unnamed: 10':'Stock','Unnamed: 8':'quantity','Unnamed: 6':'pnl'})
-	sbin=sbin[['Date','Stock','quantity','pnl']]
+	sbin=sbin.rename(columns={'Unnamed: 5':'Date','Unnamed: 10':'Stock','Unnamed: 8':'quantity','Unnamed: 6':'pnl','Unnamed: 12':'Monthly'})
+	sbin=sbin[['Date','Stock','quantity','pnl','Monthly']]
 	sbin=sbin.reset_index()
 	sbin=sbin.drop('index',axis=1)
 	st.subheader('2nd Strategy')

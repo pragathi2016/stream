@@ -1,69 +1,69 @@
-12/23/2021 12:37,,,,,,,,,,,,,
-,Entry,Entryprice,Exit,Exitprice,candle_sl,date,option_sl,pnl,position,quantity,signal,strike,target
-bnf,FALSE,,FALSE,,,23-12-2021,,0,,,FALSE,,
-12/23/2021 12:32,,,,,,,,,,,,,
-,Entry,Entryprice,Exit,Exitprice,candle_sl,date,option_sl,pnl,position,quantity,signal,strike,target
-NFO:NIFTY21DECFUT,FALSE,46.1,TRUE,54.75,17079.2,23-12-2021,38.8,382,ce,50,TRUE,NIFTY21D2317050CE,17124.7
-12/23/2021 14:22,,,,,,,,,,,,,
-,Entry,Entryprice,Exit,Exitprice,candle_sl,date,option_sl,pnl,position,quantity,signal,strike,target
-NFO:NIFTY21DECFUT,FALSE,57.35,TRUE,44.2,17071.5,23-12-2021,44.6,-707,pe,50,TRUE,NIFTY21D2317100PE,17036.25
-12/24/2021 13:30,,,,,,,,,,,,,
-,Entry,Entryprice,Exit,Exitprice,candle_sl,date,option_sl,pnl,position,quantity,signal,strike,target
-NFO:NIFTY21DECFUT,FALSE,169.45,TRUE,178.9,16940.1,24-12-2021,161.35,423,ce,50,TRUE,NIFTY21DEC16900CE,16982.1
-12/27/2021 12:19,,,,,,,,,,,,,
-,Entry,Entryprice,Exit,Exitprice,candle_sl,date,option_sl,pnl,position,quantity,signal,strike,target
-NFO:NIFTY21DECFUT,FALSE,137.15,TRUE,146.4,17010.1,27-12-2021,127.05,412,ce,50,TRUE,NIFTY21DEC17000CE,17059.85
-12/27/2021 14:55,,,,,,,,,,,,,
-,Entry,Entryprice,Exit,Exitprice,candle_sl,date,option_sl,pnl,position,quantity,signal,strike,target
-NFO:NIFTY21DECFUT,FALSE,149.25,TRUE,158.05,17089.15,27-12-2021,137,390,ce,50,TRUE,NIFTY21DEC17050CE,17133.02
-12/28/2021 10:27,,,,,,,,,,,,,
-,Entry,Entryprice,Exit,Exitprice,candle_sl,date,option_sl,pnl,position,quantity,signal,strike,target
-NFO:NIFTY21DECFUT,FALSE,127.35,TRUE,118.45,17183.85,28-12-2021,118.6,-495,ce,50,TRUE,NIFTY21DEC17150CE,17240.6
-12/28/2021 11:15,,,,,,,,,,,,,
-,Entry,Entryprice,Exit,Exitprice,candle_sl,date,option_sl,pnl,position,quantity,signal,strike,target
-NFO:NIFTY21DECFUT,FALSE,123.35,TRUE,132.15,17188.45,28-12-2021,116.45,390,ce,50,TRUE,NIFTY21DEC17150CE,17224.45
-12/28/2021 11:56,,,,,,,,,,,,,
-,Entry,Entryprice,Exit,Exitprice,candle_sl,date,option_sl,pnl,position,quantity,signal,strike,target
-NFO:NIFTY21DECFUT,FALSE,106.2,TRUE,99.35,17218.4,28-12-2021,99.45,-393,pe,50,TRUE,NIFTY21DEC17250PE,17195.08
-12/28/2021 12:37,,,,,,,,,,,,,
-,Entry,Entryprice,Exit,Exitprice,candle_sl,date,option_sl,pnl,position,quantity,signal,strike,target
-NFO:NIFTY21DECFUT,FALSE,118.7,TRUE,112.85,17237.45,28-12-2021,114.45,-343,pe,50,TRUE,NIFTY21DEC17300PE,17221.63
-12/28/2021 13:03,,,,,,,,,,,,,
-,Entry,Entryprice,Exit,Exitprice,candle_sl,date,option_sl,pnl,position,quantity,signal,strike,target
-NFO:NIFTY21DECFUT,FALSE,110.9,TRUE,103.5,17231,28-12-2021,104.35,-420,ce,50,TRUE,NIFTY21DEC17200CE,17270.37
-12/29/2021 11:00,,,,,,,,,,,,,
-,Entry,Entryprice,Exit,Exitprice,candle_sl,date,option_sl,pnl,position,quantity,signal,strike,target
-NFO:NIFTY21DECFUT,FALSE,97.35,TRUE,105.9,17242.25,29-12-2021,88.6,378,pe,50,TRUE,NIFTY21DEC17300PE,17212.7
-12/29/2021 12:20,,,,,,,,,,,,,
-,Entry,Entryprice,Exit,Exitprice,candle_sl,date,option_sl,pnl,position,quantity,signal,strike,target
-NFO:NIFTY21DECFUT,FALSE,83.25,TRUE,92.7,17221.05,29-12-2021,75.25,423,pe,50,TRUE,NIFTY21DEC17250PE,17188.5
-2021-12-30 10:02:57
-,Entry,Entryprice,Exit,Exitprice,candle_sl,date,option_sl,pnl,position,quantity,signal,strike,target
-NFO:NIFTY21DECFUT,False,49.9,True,46.05,17224.0,30-12-2021,46.2,-243,pe,50,True,NIFTY21DEC17250PE,17204.43
-2021-12-30 11:00:55
-,Entry,Entryprice,Exit,Exitprice,candle_sl,date,option_sl,pnl,position,quantity,signal,strike,target
-NFO:NIFTY21DECFUT,False,73.6,True,69.35,17232.8,30-12-2021,69.55,-262,pe,50,True,NIFTY21DEC17300PE,17216.37
-2021-12-30 11:35:31
-,Entry,Entryprice,Exit,Exitprice,candle_sl,date,option_sl,pnl,position,quantity,signal,strike,target
-NFO:NIFTY21DECFUT,False,78.5,True,87.3,17226.55,30-12-2021,70.0,390,pe,50,True,NIFTY21DEC17300PE,17209.37
-2021-12-30 12:48:06
-,Entry,Entryprice,Exit,Exitprice,candle_sl,date,option_sl,pnl,position,quantity,signal,strike,target
-NFO:NIFTY21DECFUT,False,51.35,True,43.75,17225.75,30-12-2021,43.85,-430,ce,50,True,NIFTY21DEC17200CE,17257.25
-2021-12-30 13:38:08
-,Entry,Entryprice,Exit,Exitprice,candle_sl,date,option_sl,pnl,position,quantity,signal,strike,target
-NFO:NIFTY21DECFUT,False,36.6,True,28.95,17228.5,30-12-2021,30.2,-433,pe,50,True,NIFTY21DEC17250PE,17191.87
-2021-12-30 14:54:36
-,Entry,Entryprice,Exit,Exitprice,candle_sl,date,option_sl,pnl,position,quantity,signal,strike,target
-NFO:NIFTY21DECFUT,False,75.15,True,61.8,17209.0,30-12-2021,62.35,-718,ce,50,True,NIFTY21DEC17150CE,17250.02
-2021-12-31 09:33:20
-,Entry,Entryprice,Exit,Exitprice,candle_sl,date,option_sl,pnl,position,quantity,signal,strike,target
-NFO:NIFTY22JANFUT,False,144.65,True,154.15,17330.5,31-12-2021,134.35,425,ce,50,True,NIFTY2210617300CE,17379.25
-2021-12-31 09:48:07
-,Entry,Entryprice,Exit,Exitprice,candle_sl,date,option_sl,pnl,position,quantity,signal,strike,target
-NFO:NIFTY22JANFUT,False,133.5,True,123.45,17372.6,31-12-2021,123.85,-552,ce,50,True,NIFTY2210617350CE,17423.6
-2021-12-31 11:36:10
-,Entry,Entryprice,Exit,Exitprice,candle_sl,date,option_sl,pnl,position,quantity,signal,strike,target
-NFO:NIFTY22JANFUT,False,176.1,True,167.55,17395.0,31-12-2021,168.2,-477,pe,50,True,NIFTY2210617450PE,17375.5
-2021-12-31 12:12:09
-,Entry,Entryprice,Exit,Exitprice,candle_sl,date,option_sl,pnl,position,quantity,signal,strike,target
-NFO:NIFTY22JANFUT,False,132.7,True,125.9,17396.35,31-12-2021,126.0,-390,ce,50,True,NIFTY2210617350CE,17441.85
+12/23/2021 12:37,,,,,,,,,,,,,,
+,Entry,Entryprice,Exit,Exitprice,candle_sl,date,option_sl,pnl,position,quantity,signal,strike,target,monthly
+bnf,FALSE,,FALSE,,,23-12-2021,,0,,,FALSE,,,Dec-50
+12/23/2021 12:32,,,,,,,,,,,,,,
+,Entry,Entryprice,Exit,Exitprice,candle_sl,date,option_sl,pnl,position,quantity,signal,strike,target,
+NFO:NIFTY21DECFUT,FALSE,46.1,TRUE,54.75,17079.2,23-12-2021,38.8,382,ce,50,TRUE,NIFTY21D2317050CE,17124.7,
+12/23/2021 14:22,,,,,,,,,,,,,,
+,Entry,Entryprice,Exit,Exitprice,candle_sl,date,option_sl,pnl,position,quantity,signal,strike,target,
+NFO:NIFTY21DECFUT,FALSE,57.35,TRUE,44.2,17071.5,23-12-2021,44.6,-707,pe,50,TRUE,NIFTY21D2317100PE,17036.25,
+12/24/2021 13:30,,,,,,,,,,,,,,
+,Entry,Entryprice,Exit,Exitprice,candle_sl,date,option_sl,pnl,position,quantity,signal,strike,target,
+NFO:NIFTY21DECFUT,FALSE,169.45,TRUE,178.9,16940.1,24-12-2021,161.35,423,ce,50,TRUE,NIFTY21DEC16900CE,16982.1,
+12/27/2021 12:19,,,,,,,,,,,,,,
+,Entry,Entryprice,Exit,Exitprice,candle_sl,date,option_sl,pnl,position,quantity,signal,strike,target,
+NFO:NIFTY21DECFUT,FALSE,137.15,TRUE,146.4,17010.1,27-12-2021,127.05,412,ce,50,TRUE,NIFTY21DEC17000CE,17059.85,
+12/27/2021 14:55,,,,,,,,,,,,,,
+,Entry,Entryprice,Exit,Exitprice,candle_sl,date,option_sl,pnl,position,quantity,signal,strike,target,
+NFO:NIFTY21DECFUT,FALSE,149.25,TRUE,158.05,17089.15,27-12-2021,137,390,ce,50,TRUE,NIFTY21DEC17050CE,17133.02,
+12/28/2021 10:27,,,,,,,,,,,,,,
+,Entry,Entryprice,Exit,Exitprice,candle_sl,date,option_sl,pnl,position,quantity,signal,strike,target,
+NFO:NIFTY21DECFUT,FALSE,127.35,TRUE,118.45,17183.85,28-12-2021,118.6,-495,ce,50,TRUE,NIFTY21DEC17150CE,17240.6,
+12/28/2021 11:15,,,,,,,,,,,,,,
+,Entry,Entryprice,Exit,Exitprice,candle_sl,date,option_sl,pnl,position,quantity,signal,strike,target,
+NFO:NIFTY21DECFUT,FALSE,123.35,TRUE,132.15,17188.45,28-12-2021,116.45,390,ce,50,TRUE,NIFTY21DEC17150CE,17224.45,
+12/28/2021 11:56,,,,,,,,,,,,,,
+,Entry,Entryprice,Exit,Exitprice,candle_sl,date,option_sl,pnl,position,quantity,signal,strike,target,
+NFO:NIFTY21DECFUT,FALSE,106.2,TRUE,99.35,17218.4,28-12-2021,99.45,-393,pe,50,TRUE,NIFTY21DEC17250PE,17195.08,
+12/28/2021 12:37,,,,,,,,,,,,,,
+,Entry,Entryprice,Exit,Exitprice,candle_sl,date,option_sl,pnl,position,quantity,signal,strike,target,
+NFO:NIFTY21DECFUT,FALSE,118.7,TRUE,112.85,17237.45,28-12-2021,114.45,-343,pe,50,TRUE,NIFTY21DEC17300PE,17221.63,
+12/28/2021 13:03,,,,,,,,,,,,,,
+,Entry,Entryprice,Exit,Exitprice,candle_sl,date,option_sl,pnl,position,quantity,signal,strike,target,
+NFO:NIFTY21DECFUT,FALSE,110.9,TRUE,103.5,17231,28-12-2021,104.35,-420,ce,50,TRUE,NIFTY21DEC17200CE,17270.37,
+12/29/2021 11:00,,,,,,,,,,,,,,
+,Entry,Entryprice,Exit,Exitprice,candle_sl,date,option_sl,pnl,position,quantity,signal,strike,target,
+NFO:NIFTY21DECFUT,FALSE,97.35,TRUE,105.9,17242.25,29-12-2021,88.6,378,pe,50,TRUE,NIFTY21DEC17300PE,17212.7,
+12/29/2021 12:20,,,,,,,,,,,,,,
+,Entry,Entryprice,Exit,Exitprice,candle_sl,date,option_sl,pnl,position,quantity,signal,strike,target,
+NFO:NIFTY21DECFUT,FALSE,83.25,TRUE,92.7,17221.05,29-12-2021,75.25,423,pe,50,TRUE,NIFTY21DEC17250PE,17188.5,
+12/30/2021 10:02,,,,,,,,,,,,,,
+,Entry,Entryprice,Exit,Exitprice,candle_sl,date,option_sl,pnl,position,quantity,signal,strike,target,
+NFO:NIFTY21DECFUT,FALSE,49.9,TRUE,46.05,17224,30-12-2021,46.2,-243,pe,50,TRUE,NIFTY21DEC17250PE,17204.43,
+12/30/2021 11:00,,,,,,,,,,,,,,
+,Entry,Entryprice,Exit,Exitprice,candle_sl,date,option_sl,pnl,position,quantity,signal,strike,target,
+NFO:NIFTY21DECFUT,FALSE,73.6,TRUE,69.35,17232.8,30-12-2021,69.55,-262,pe,50,TRUE,NIFTY21DEC17300PE,17216.37,
+12/30/2021 11:35,,,,,,,,,,,,,,
+,Entry,Entryprice,Exit,Exitprice,candle_sl,date,option_sl,pnl,position,quantity,signal,strike,target,
+NFO:NIFTY21DECFUT,FALSE,78.5,TRUE,87.3,17226.55,30-12-2021,70,390,pe,50,TRUE,NIFTY21DEC17300PE,17209.37,
+12/30/2021 12:48,,,,,,,,,,,,,,
+,Entry,Entryprice,Exit,Exitprice,candle_sl,date,option_sl,pnl,position,quantity,signal,strike,target,
+NFO:NIFTY21DECFUT,FALSE,51.35,TRUE,43.75,17225.75,30-12-2021,43.85,-430,ce,50,TRUE,NIFTY21DEC17200CE,17257.25,
+12/30/2021 13:38,,,,,,,,,,,,,,
+,Entry,Entryprice,Exit,Exitprice,candle_sl,date,option_sl,pnl,position,quantity,signal,strike,target,
+NFO:NIFTY21DECFUT,FALSE,36.6,TRUE,28.95,17228.5,30-12-2021,30.2,-433,pe,50,TRUE,NIFTY21DEC17250PE,17191.87,
+12/30/2021 14:54,,,,,,,,,,,,,,
+,Entry,Entryprice,Exit,Exitprice,candle_sl,date,option_sl,pnl,position,quantity,signal,strike,target,
+NFO:NIFTY21DECFUT,FALSE,75.15,TRUE,61.8,17209,30-12-2021,62.35,-718,ce,50,TRUE,NIFTY21DEC17150CE,17250.02,
+12/31/2021 9:33,,,,,,,,,,,,,,
+,Entry,Entryprice,Exit,Exitprice,candle_sl,date,option_sl,pnl,position,quantity,signal,strike,target,
+NFO:NIFTY22JANFUT,FALSE,144.65,TRUE,154.15,17330.5,31-12-2021,134.35,425,ce,50,TRUE,NIFTY2210617300CE,17379.25,
+12/31/2021 9:48,,,,,,,,,,,,,,
+,Entry,Entryprice,Exit,Exitprice,candle_sl,date,option_sl,pnl,position,quantity,signal,strike,target,
+NFO:NIFTY22JANFUT,FALSE,133.5,TRUE,123.45,17372.6,31-12-2021,123.85,-552,ce,50,TRUE,NIFTY2210617350CE,17423.6,
+12/31/2021 11:36,,,,,,,,,,,,,,
+,Entry,Entryprice,Exit,Exitprice,candle_sl,date,option_sl,pnl,position,quantity,signal,strike,target,
+NFO:NIFTY22JANFUT,FALSE,176.1,TRUE,167.55,17395,31-12-2021,168.2,-477,pe,50,TRUE,NIFTY2210617450PE,17375.5,
+12/31/2021 12:12,,,,,,,,,,,,,,
+,Entry,Entryprice,Exit,Exitprice,candle_sl,date,option_sl,pnl,position,quantity,signal,strike,target,
+NFO:NIFTY22JANFUT,FALSE,132.7,TRUE,125.9,17396.35,31-12-2021,126,-390,ce,50,TRUE,NIFTY2210617350CE,17441.85,
