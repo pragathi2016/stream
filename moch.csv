@@ -76,3 +76,6 @@ NFO:NIFTY22JANFUT,False,105.9,True,114.25,17544.6,03-01-2022,102.25,367,ce,50,Tr
 2022-01-03 12:36:14
 ,Entry,Entryprice,Exit,Exitprice,candle_sl,date,option_sl,pnl,position,quantity,signal,strike,target
 NFO:NIFTY22JANFUT,False,88,True,98.15,17559.0,03-01-2022,81.2,965,ce,100,True,NIFTY2210617550CE,17599.75
+2022-01-04 12:46:53
+,Entry,Entryprice,Exit,Exitprice,candle_sl,date,option_sl,pnl,position,quantity,signal,strike,target
+NFO:NIFTY22JANFUT,False,74.65,True,68.65,17756.0,04-01-2022,69.15,-350,ce,50,True,NIFTY2210617750CE,17813.38
