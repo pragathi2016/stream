@@ -34,13 +34,13 @@ def rsi():
 	sbin=sbin[['Date','pnl']]
 	sbin=sbin.reset_index()
 	sbin=sbin.drop('index',axis=1)
-	st.subheader('2nd Strategy - Deployed')
+	st.subheader('Equity - Deployed')
 	st.text("Instrument is NSE Cash")
 	st.write(sbin)
 	for i in sbin['pnl']:
 		i=float(i)
 		sbin_pnl+=i
-	st.text(f'Total pnl in 2nd startegy is {sbin_pnl}')
+	st.text(f'Total pnl in Equity is {sbin_pnl}')
 	return sbin_pnl
 
 def bnf300():
@@ -52,14 +52,14 @@ def bnf300():
 	bnf300=bnf300[['Date','Strike','quantity','pnl']]
 	bnf300=bnf300.reset_index()
 	bnf300=bnf300.drop('index',axis=1)
-	st.subheader('3rd Strategy')
+	st.subheader('2nd Strategy - Testing')
 	st.write(bnf300)
 	bnf300_pnl=0
 	for i in bnf300['pnl']:
 		i=float(i)
 		bnf300_pnl+=i
 	bnf300_data=bnf300[['Date','pnl']]
-	st.text(f'Total pnl in 3rd startegy is {bnf300_pnl}')
+	st.text(f'Total pnl in 2nd startegy is {bnf300_pnl}')
 	return bnf300_pnl
 
 def straddle():
@@ -74,13 +74,13 @@ def straddle():
 	straddle=straddle.reset_index()
 	straddle=straddle.drop('index',axis=1)
 	straddle.drop(index=straddle.index[0],axis=0,inplace=True)
-	st.subheader('4th Strategy- Straddle - Deployed')
+	st.subheader('Straddle - Deployed')
 	st.text("BANKNIFTY")
 	st.write(straddle)
 	for i in straddle['pnl']:
 		i=float(i)
 		straddle_pnl+=i
-	st.text(f'Total pnl in 4th startegy is {straddle_pnl}')
+	st.text(f'Total pnl in Straddle is {straddle_pnl}')
 	return straddle_pnl
 def total_pnl():
 	bnf300()
