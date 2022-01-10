@@ -31,10 +31,11 @@ def rsi():
 	# sbin=pd.read_csv('E:/startegy/logs/mo_ch/stream/sbin.csv')
 	sbin=sbin.dropna()
 	sbin=sbin.rename(columns={'Unnamed: 5':'Date','Unnamed: 10':'Stock','Unnamed: 8':'quantity','Unnamed: 6':'pnl'})
-	sbin=sbin[['Date','Stock','quantity','pnl']]
+	sbin=sbin[['Date','pnl']]
 	sbin=sbin.reset_index()
 	sbin=sbin.drop('index',axis=1)
-	st.subheader('2nd Strategy')
+	st.subheader('2nd Strategy - Deployed')
+	st.text("Instrument is NSE Cash")
 	st.write(sbin)
 	for i in sbin['pnl']:
 		i=float(i)
@@ -62,7 +63,7 @@ def bnf300():
 	return bnf300_pnl
 
 def straddle():
-	mother_child()
+	# mother_child()
 	rsi()
 	bnf300()
 	global straddle_pnl
@@ -73,7 +74,7 @@ def straddle():
 	straddle=straddle.reset_index()
 	straddle=straddle.drop('index',axis=1)
 	straddle.drop(index=straddle.index[0],axis=0,inplace=True)
-	st.subheader('4th Strategy- Straddle')
+	st.subheader('4th Strategy- Straddle - Deployed')
 	st.text("BANKNIFTY")
 	st.write(straddle)
 	for i in straddle['pnl']:
