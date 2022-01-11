@@ -38,3 +38,6 @@ NSE:NIFTY BANK,True,38208,True,38011.9,37909.45,07-01-2022,-5402,long,25,True,BA
 2022-01-10 11:21:15
 ,Entry,Entryprice,Exit,Exitprice,candle_sl,date,pnl,position,quantity,signal,strike
 NSE:NIFTY BANK,True,38349,True,38206.05,38085.35,10-01-2022,-7647,long,50,True,BANKNIFTY22JANFUT
+2022-01-11 10:32:22
+,Entry,Entryprice,Exit,Exitprice,candle_sl,date,pnl,position,quantity,signal,strike
+NSE:NIFTY BANK,True,38202.95,True,38375,38230.25,11-01-2022,-9103,short,50,True,BANKNIFTY22JANFUT
