@@ -98,7 +98,7 @@ if __name__=="__main__":
 	st.text("I Have considered charges of 50rs per trade in options,500rs in Futures and \n50rs in Equity.")
 	st.text("Pnl is after all deductions.Scroll to the bottom for total pnl of all strategies.")
 	straddle()
-	st.header(f"Total pnl of all strategies = {mother_child_pnl+sbin_pnl+straddle_pnl}")
+	st.header(f"Total pnl of all strategies = {round(mother_child_pnl+sbin_pnl+straddle_pnl),2}")
 	st.write("Contact me @ [Twitter](https://twitter.com/yashwanthb_s)")
 	increment = st.button('Refresh')
 	if increment:
