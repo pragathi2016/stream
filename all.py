@@ -23,7 +23,7 @@ def mother_child():
 	# mother_child['Monthly']=int(float(mother_child_pnl))
 	st.write(mother_child)
 	st.text(f"Total pnl in 1st strategy is {mother_child_pnl}")
-	return mother_child_pnl
+	return round(mother_child_pnl,2)
 
 def rsi():
 	global sbin_pnl
@@ -41,7 +41,7 @@ def rsi():
 		i=float(i)
 		sbin_pnl+=i
 	st.text(f'Total pnl in Equity is {sbin_pnl}')
-	return sbin_pnl
+	return round(sbin_pnl,2)
 
 def bnf300():
 	global bnf300_pnl
@@ -60,7 +60,7 @@ def bnf300():
 		bnf300_pnl+=i
 	bnf300_data=bnf300[['Date','pnl']]
 	st.text(f'Total pnl in 2nd startegy is {bnf300_pnl}')
-	return bnf300_pnl
+	return round(bnf300_pnl,2)
 
 def straddle():
 	# mother_child()
@@ -81,7 +81,7 @@ def straddle():
 		i=float(i)
 		straddle_pnl+=i
 	st.text(f'Total pnl in Straddle is {straddle_pnl}')
-	return straddle_pnl
+	return round(straddle_pnl,2)
 def total_pnl():
 	bnf300()
 	update=f"Total pnl of all strategies = {mother_child()}"
@@ -98,7 +98,7 @@ if __name__=="__main__":
 	st.text("I Have considered charges of 50rs per trade in options,500rs in Futures and \n50rs in Equity.")
 	st.text("Pnl is after all deductions.Scroll to the bottom for total pnl of all strategies.")
 	straddle()
-	st.header(f"Total pnl of all strategies = {round(mother_child_pnl+sbin_pnl+straddle_pnl),2}")
+	st.header(f"Total pnl of all strategies = {roundmother_child_pnl+sbin_pnl+straddle_pnl}")
 	st.write("Contact me @ [Twitter](https://twitter.com/yashwanthb_s)")
 	increment = st.button('Refresh')
 	if increment:
