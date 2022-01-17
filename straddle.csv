@@ -18,8 +18,8 @@ NSE:NIFTY BANK,True,224.4,233.25,True,True,172.5,215.6,1247.5,318.65,12-01-2022,
 NSE:NIFTY BANK,True,123.45,116.2,True,True,11.95,166.15,2737.5,128.45,13-01-2022,-1298.75,165.0,25,2211338600,1438.75
 2022-01-14 14:20:57
 ,Entry,Entryprice_ce,Entryprice_pe,Exit_ce,Exit_pe,Exitprice_ce,Exitprice_pe,ce_pnl,ce_sl,date,pe_pnl,pe_sl,quantity,strikes,total_pnl
-NSE:NIFTY BANK,True,123.45,116.2,True,True,11.95,166.15,2737.5,128.45,14-01-2022,-1298.75,165.0,25,2211338300,652.50
-
+NSE:NIFTY BANK,True,123.45,116.2,True,True,11.95,166.15,2737.5,128.45,14-01-2022,652.50,165.0,25,2211338300,652.50
 2022-01-17 14:59:17
 ,Entry,Entryprice_ce,Entryprice_pe,Exit_ce,Exit_pe,Exitprice_ce,Exitprice_pe,ce_pnl,ce_sl,date,pe_pnl,pe_sl,quantity,strikes,total_pnl
-NSE:NIFTY BANK,True,379,337.65,True,True,311.6,374.6,1635.0,530.6,17-01-2022,-973.75,472.71,25,2212038300,661.25
+NSE:NIFTY BANK,True,379,337.65,True,True,311.6,374.6,1635.0,530.6,17-01-2022,803.75,472.71,25,2212038300,661.25
+
