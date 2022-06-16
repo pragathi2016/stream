@@ -46,6 +46,7 @@ def rsi():
 def bnf300():
 	global bnf300_pnl
 	bnf300=pd.read_csv('bnf300.csv')
+	# bnf300=bnf300.iloc[::-1]
 	# bnf300=pd.read_csv('E:/startegy/logs/mo_ch/stream/bnf300.csv')
 	bnf300=bnf300.dropna()
 	bnf300=bnf300.rename(columns={'Unnamed: 6':'Date','Unnamed: 11':'Strike','Unnamed: 9':'quantity','Unnamed: 7':'pnl'})
