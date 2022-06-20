@@ -1,5 +1,5 @@
 name: stats
 dependencies:
-  - conda:
-    - openpyxl
+  - pip:
+    - openpyxl 3.0.10
     - defusedxml
