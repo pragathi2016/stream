@@ -2,3 +2,4 @@ name: stats
 dependencies:
   - pip:
     - openpyxl
+    - defusedxml
