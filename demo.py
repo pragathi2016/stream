@@ -20,7 +20,7 @@ if __name__ == '__main__':
 	count = 0
 	st.text("Day in/out")
 	data()
-	st.write("Contact me @ [Instagram](https://www.instagram.com/bsyashwanth_/)")
+	st.write("Contact me @ [yashtech](https://yashtech.xyz/)")
 	increment = st.button('Refresh')
 	if increment:
 	    count += 1
