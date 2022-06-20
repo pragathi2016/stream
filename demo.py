@@ -12,6 +12,7 @@ def data():
 	newfile="./cars.xlsx"
 	data=pd.read_excel(newfile)
 	data=data[::-1]
+	data['DATE'].dt.date
 	st.subheader('Cars Report')
 	# st.text("Instrument is NSE Cash")
 	st.write(data)
