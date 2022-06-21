@@ -21,7 +21,7 @@ if __name__ == '__main__':
 	count = 0
 	st.text("Day in/out")
 	data()
-	st.write("Contact me @ [yashtech](https://yashtech.xyz/)")
+	st.write("Developed by [yashtech.Inc](https://yashtech.xyz/)")
 	increment = st.button('Refresh')
 	if increment:
 	    count += 1
