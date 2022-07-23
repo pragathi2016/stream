@@ -14,6 +14,7 @@ def data():
 	data=data[::-1]
 	data['DATE']=data['DATE'].dt.date
 	# print(data)
+	data['AMOUNT']=data['AMOUNT'].astype(int)
 	st.subheader('Cars Report')
 	# st.text("Instrument is NSE Cash")
 	st.write(data)
