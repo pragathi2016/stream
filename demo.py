@@ -13,10 +13,10 @@ def data():
 	data=pd.read_excel(newfile)
 	data=data[::-1]
 	data['DATE']=data['DATE'].dt.date
-	print(data)
+	# print(data)
 	st.subheader('Cars Report')
 	# st.text("Instrument is NSE Cash")
-	st.write(data)
+	# st.write(data)
 
 if __name__ == '__main__':
 	count = 0
