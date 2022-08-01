@@ -21,7 +21,7 @@ chat_id="-1001687356814"
 dataframe_image.export(new_df,f"./images/{dt.now().date()}.png")
 
 Sender_Email = "yashwanthbs1208@gmail.com"
-Reciever_Email = ["yashwanthbs55@gmail.com","nirupgowda0882@gmail.com"]#,"htv6902@gmail.com","niruphombegowda1999@gmail.com",'nirupgowda1999@gmail.com']
+Reciever_Email = ["nirupgowda0882@gmail.com"]#,"htv6902@gmail.com","niruphombegowda1999@gmail.com",'nirupgowda1999@gmail.com']
 Password = "ofhqncekyefrrrxw"
 
 newMessage = EmailMessage()                         
