@@ -12,7 +12,7 @@ def data():
 	newfile="./cars.xlsx"
 	data=pd.read_excel(newfile)
 	data=data[::-1]
-	data['DATE']=data['DATE'].dt.date
+	data['OUT_DATE']=data['OUT_DATE'].dt.date
 	# print(data)
 	# data['AMOUNT']=data['AMOUNT'].astype(int)
 	st.subheader('Cars Report')
